@@ -5,16 +5,93 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 
 <style>
-.wrap { width: 80%; margin: auto; border: solid 1px gray; }
+* { margin: 0; padding: 0; }
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; } 
+.wrap { width: 80%; margin: auto; min-height: 100px; }
 h3 { text-align: center; }
+.user_info { width: 100%; }
+.title { width: 20%; height: 150px; text-align: center; }
+.title img { height: 150px; max-width: 150px; border-radius: 50%; }
+.detail_info { width: 78%; }
+.user_name { margin: 10px 0; }
+.detail_info h4 { margin-top: 5px; }
+
+.main_content { width: 78%; min-height: 500px; margin: 10px 0 30px 0; }
+.tip { display: inline-block; width: 100%; text-align: left; color: blue; font-weight: bold; margin: 5px 0; }
+.content { display: block; width: 80%; margin: auto; }
 </style>
 </head>
 
 
 <body>
-	<div class="warp">
-		<div class=""></div>
+	<div class="wrap">
+		<div class="user_info">
+			<div class="title left">
+				<img src="title.png" >
+			</div>
 
+			<div class="detail_info right">
+				<h2 class="user_name">贾成余</h2>
+				<hr>
+				<h4>男</h4>
+				<h4>1990</h4>
+				<h4>18752011578</h4>
+				<h4>thankyouwl@163.com</h4>
+
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<div class="main_content right">
+			<span class="tip">教育背景</span>
+			<span class="content">2010-2014 &nbsp; 南京工业大学-计算机科学与技术</span>
+
+			<span class="tip">证书</span>
+			<span class="content">英语六级</span>
+			<span class="content">计算机三级</span>
+			<span class="content">软件设计师（中级）</span>
+
+			<span class="tip">技能</span>
+			<span class="content">Java</span>
+			<span class="content">Mysql</span>
+			<span class="content">Tomcat</span>
+			<span class="content">Stripes</span>
+			<span class="content">Mabatis</span>
+			<span class="content">Git</span>
+			<span class="content">Html,Css,Javascript</span>
+
+			<span class="tip">工作经历</span>
+			<span class="content">2014-至今，在江苏云敩科技有限公司研发岗位 </span>
+			<br>
+			<span class="content">项目1：参与B/S作业系统，该系统是一个供学校使用的作业电子化平台，老师
+				发作业-学生平板作答完提交-老师批改发回-学生订正的系统，我主要负责后台一些流程的处理以及
+				浏览器端页面的生成。
+			</span>
+			<br>
+			<span class="content">
+				项目2：负责早教系统，一个供幼儿园使用的家校互通的平台，我负责所有的后台接口、处理流程、网页端实现以及数据库的设计。
+			</span>
+
+			<span class="tip">个人介绍</span>
+			<span class="content">
+				在大学期间C++作为入门语言学习了一年，大二开始学习Java，后来一直都使用Java写算法实现以及一些
+				小程序，毕业设计也是用Java做的一个网络聊天系统，除了上课学习，自己系统的看过Java程序设计书籍，熟悉Java基本的api使用。
+			</span>
+			<br>
+
+			<span class="content">
+				在大三到大四快毕业的一年时间里，基本上都泡在图书馆，看书写代码，那段时间学习了很多编程方面的知识，包括计算机网络、操作系统、数据结构于算法等。
+			</span>
+			<br>
+
+			<span class="content">
+				个人爱好爬山，正常每个周末爬一次山。
+			</span>
+			
+		</div>
 	</div>
 </body>
 
